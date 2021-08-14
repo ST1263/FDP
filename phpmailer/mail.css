@@ -1,0 +1,123 @@
+
+  body{
+  
+background: linear-gradient(180deg, rgba(0, 0, 0, 0.28) 0%, rgba(245, 245, 245, 0) 100%);
+
+ 
+}
+.con1{
+  height:auto;
+ 
+}
+.r1{
+ 
+ height:auto;
+}
+.r2{
+ 
+ height:auto;
+}
+
+.prd{
+  
+  font-family: Calibri;
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 29px;
+
+
+text-decoration-line: underline;
+
+color: #8D1674;
+margin-left: -13%;
+
+text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+
+.box{
+    
+ box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 20px;
+transition: border-width border-color 0.1s;
+
+
+  }      
+
+.box:hover{
+animation-name: swing ;
+        animation-duration:1s;
+
+        animation-iteration-count: 1;
+
+  border: 1px inset black;
+ 
+}
+@keyframes swing
+{
+    25%
+    {
+      border-left-color:   black;
+      border-bottom-color:   white;
+      border-right-color:   white;
+      border-top-color:   white;
+      
+        
+    }
+    50%
+    {
+        border-left-color:   white;
+      
+      border-right-color:   white;
+      border-top-color:   white;
+border-bottom-color:   black;
+        
+    }
+    75%
+    {
+      border-right-color:   black;
+       border-left-color:   white;
+      
+      
+      border-top-color:   white;
+border-bottom-color:   white; 
+    }
+    100%
+    {
+      border-top-color:   black;
+       border-right-color:   white;
+       border-left-color:   white;
+      border-bottom-color:   white; 
+
+    }
+
+  
+
+    
+  }
+  input[type=text]{
+ background-color:#E9E9E9;
+  
+  border: none;
+  border-bottom: 2px solid #000000;
+   
+
+  }
+  input[type=submit]{
+   
+  }
+  a{
+
+  }
+  .emailid{
+     background-color:#E9E9E9;
+  
+  border: none;
+  border-bottom: 2px solid #000000;
+  }
+form-inline{
+  width: auto;
+
+}
+
